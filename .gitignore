@@ -9,3 +9,14 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+**/*.iml
+**/.DS_Store
+*.jfr
+*.local
+*.war
+*~
+.#*
+.classpath
+.idea/
+.project
+.settings/
