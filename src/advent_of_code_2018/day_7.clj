@@ -15,10 +15,6 @@
       {}
       (line-seq rdr))))
 
-(defn comes-befores?
-  [a b]
-  (< (compare a b) 0))
-
 (defn get-runnable
   [steps done-steps]
   (-> (reduce
