@@ -62,7 +62,7 @@
                     (try
                       (let [child (nth (:nodes node) (dec idx))]
                         (get-node-val child))
-                      (catch Exception e
+                      (catch IndexOutOfBoundsException e
                         0)))
                   (:metadata node)))))
 
